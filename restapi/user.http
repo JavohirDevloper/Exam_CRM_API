@@ -1,0 +1,39 @@
+GET http://localhost:4000/users 
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+GET http://localhost:4000/users
+Authorization:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+###
+POST http://localhost:4000/users
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+Content-Type: application/json
+
+{
+  "first_name": "Ilon",
+  "last_name": "Musk",
+  "gender": "male",
+  "contact": "789-123-4561",
+  "email": "ilon@example.com",
+  "pos_ref_id": "64e6a025584831b9373df8c3",
+  "group_ref_id": "64e6a331584831b9373df911"
+}
+
+###
+PUT http://localhost:4000/users/64e60e0b5482bb2b106a2dc0
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+Content-Type: application/json
+
+{
+  "first_name": "Ilon",
+  "last_name": "Musk",
+  "gender": "male",
+  "contact": "789-123-4561",
+  "email": "ilon@example.com",
+  "pos_ref_id": "64e6a025584831b9373df8c3",
+  "group_ref_id": "64e6a331584831b9373df911"
+}
+###
+DELETE http://localhost:4000/users/64e6a82a584831b9373df97c
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c

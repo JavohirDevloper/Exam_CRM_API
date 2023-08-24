@@ -1,0 +1,30 @@
+GET http://localhost:4000/deportament
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+GET http://localhost:4000/deportament/64e5335fde2a73cd027a9b5c
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+POST http://localhost:4000/deportament
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+Content-Type: application/json
+
+{
+  "deportament_id": "4",
+  "deportament_name": "Moliya bo'limi",
+  "center_ref_id": "64e503d1a8a0732bc8f22a37"
+}
+
+###
+PUT http://localhost:4000/deportament/64e5335fde2a73cd027a9b5c
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+Content-Type: application/json
+
+{
+    "deportament_name": "O'quv bo'limi"
+}
+
+###
+DELETE http://localhost:4000/deportament/64e532aede2a73cd027a9b43
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c

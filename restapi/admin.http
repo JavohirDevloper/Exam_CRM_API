@@ -1,0 +1,11 @@
+POST http://localhost:4000/admin/login
+Content-Type: application/json
+
+{
+    "email": "muhammadiyevj72@gmail.com"
+}
+
+###
+GET http://localhost:4000/pass/code/ef8aea
+Content-Type: application/json
+  

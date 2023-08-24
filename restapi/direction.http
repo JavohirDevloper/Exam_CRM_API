@@ -1,0 +1,37 @@
+GET http://localhost:4000/direction
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+GET http://localhost:4000/direction/64e53c2b120fe4c3345e096b
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+
+###
+POST http://localhost:4000/direction
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+Content-Type: application/json
+
+{
+  "dep_id": "1",
+  "dep_ref_id": "64e5335fde2a73cd027a9b5c",
+ "dir_name": "ReactJS",
+ "duration": 7,
+ "salary": 800000,
+  "start_date": "2023-01-01",
+  "end_date": "2023-12-31"
+}
+
+###
+PUT http://localhost:4000/direction/64e53bb11433967b600e5e58
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+Content-Type: application/json
+
+{
+ "dir_name": "NodeJS",
+ "duration": 7,
+ "salary": 800000
+}
+
+###
+DELETE http://localhost:4000/direction/64e53d47a0f2600cc92c2282
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c

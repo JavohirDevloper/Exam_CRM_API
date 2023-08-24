@@ -1,0 +1,32 @@
+GET http://localhost:4000/checks
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+GET http://localhost:4000/checks/64e51119a2d87b3504788a23
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+POST http://localhost:4000/checks
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+{
+  "check_id": 1,
+  "gr_ref_id": "64e6a331584831b9373df911",
+  "user_ref_id": "64e5ce021fa81f7066efd873",
+  "not_in_class": "kelgan",
+  "add_date": "2023-08-23"
+}
+
+###
+PUT http://localhost:4000/checks/64e6a4d3584831b9373df933
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+{
+   "user_ref_id": "64e6a9a0584831b9373df99e"
+}
+
+###
+DELETE http://localhost:4000/checks/64e6a4d3584831b9373df933
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c

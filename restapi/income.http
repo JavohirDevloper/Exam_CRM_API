@@ -1,0 +1,31 @@
+GET http://localhost:4000/income
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+GET http://localhost:4000/income/64e51119a2d87b3504788a23
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+###
+POST http://localhost:4000/income
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+{
+  "income_id": "1",
+  "user_ref_id": "64e6a9a0584831b9373df99e",
+  "reason": "Salary",
+  "amount": "1000000$"
+}
+
+###
+PUT http://localhost:4000/income/64e51119a2d87b3504788a23
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
+
+{
+   
+}
+
+###
+DELETE http://localhost:4000/income/64e603003cb621982242465a
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInR5cGUiOiJjb250YWN0IiwiaWF0IjoxNjkyODYwMTkxLCJleHAiOjE2OTI5NDY1OTF9.hvcN8wmvFzxvJcQxoG2L4-WsChVc47Qq0z0iM4O0v5c
