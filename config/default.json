@@ -1,5 +1,5 @@
 {
     "port": "4000",
-    "mongo": "mongodb+srv://muhammadiyevj768:oPGKL1Lk2QvkmqAy@cluster0.tzss6dk.mongodb.net/?retryWrites=true&w=majority",
+    "mongo": "mongodb://127.0.0.1:27017/crm",
     "jwt_secret": "exam"
 }
